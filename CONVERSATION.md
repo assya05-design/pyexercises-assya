@@ -36,3 +36,32 @@ for num in numbers:
 ```
 
 Which built-in function turns a list into an iterator you can loop over?
+
+---
+## 2026-10-27 14:44, in .
+
+**Me:** How to write a joint sentence
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-27 14:48, in .
+
+**Me:** what is a variable
+
+**Tutor:**
+
+A variable is a name that stores a value you can reuse later.
+
+```python
+# Assigning a value to a variable
+cost_per_click = 0.45
+
+# Using the variable in a calculation
+daily_budget = 100
+max_clicks = daily_budget / cost_per_click
+```
+
+What function would you use to turn the string `"0.45"` into the number `0.45`?
