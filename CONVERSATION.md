@@ -65,3 +65,23 @@ max_clicks = daily_budget / cost_per_click
 ```
 
 What function would you use to turn the string `"0.45"` into the number `0.45`?
+
+---
+## 2026-10-27 14:53, in .
+
+**Me:** what is a float
+
+**Tutor:**
+
+A float is a data type that stores decimal numbers (numbers with a fractional part).
+
+```python
+# Example of float values
+price = 19.99
+discount_rate = 0.15
+temperature = -3.5
+
+# TODO: Create a variable named 'average' and assign it the float value 75.5
+```
+
+Which built-in function converts a string like "42.5" to a float?
