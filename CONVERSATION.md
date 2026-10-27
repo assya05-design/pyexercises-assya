@@ -17,3 +17,22 @@ print()
 ```
 
 What argument does the `print()` function take?
+
+---
+## 2026-10-27 13:42, in .
+
+**Me:** How to write a for loop
+
+**Tutor:**
+
+A for loop lets you repeat a block of code for each item in a sequence.
+
+```python
+# Loop over a list of toy numbers
+numbers = [2, 4, 6]
+
+for num in numbers:
+    # TODO: print the square of each number
+```
+
+Which built-in function turns a list into an iterator you can loop over?
