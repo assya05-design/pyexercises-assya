@@ -293,3 +293,48 @@ print(numbers)
 ```
 
 Which function sorts a list in ascending order?
+
+---
+## 2026-10-28 13:14, in .
+
+**Me:** what is a field
+
+**Tutor:**
+
+A field is one column in a CSV file or a table.
+
+Example of reading a field from a row:
+
+```python
+import csv
+
+with open('toy_data.csv', newline='') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        # TODO: print the field named 'cost' from this row
+```
+
+What is the argument you pass to DictReader to tell it which field you want?
+
+---
+## 2026-10-28 13:16, in .
+
+**Me:** what is a dictionary
+
+**Tutor:**
+
+A dictionary is a Python container that stores pairs of keys and values.
+
+```python
+# Example: a small dictionary
+campaign_data = {
+    "campaign_id": 101,
+    "cost": 500,
+    "clicks": 25,
+    "impressions": 1000
+}
+
+# TODO: print the cost value using the key "cost"
+```
+
+What function do you call on a dictionary with a key to retrieve its value?
