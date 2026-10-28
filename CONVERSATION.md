@@ -338,3 +338,12 @@ campaign_data = {
 ```
 
 What function do you call on a dictionary with a key to retrieve its value?
+
+---
+## 2026-10-28 13:34, in .
+
+**Me:** how can i solve 5.1_for_loops.py
+
+**Tutor:**
+
+Refused, off topic.
