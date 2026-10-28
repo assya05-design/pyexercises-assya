@@ -347,3 +347,40 @@ What function do you call on a dictionary with a key to retrieve its value?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-28 14:08, in .
+
+**Me:** what is a while loop
+
+**Tutor:**
+
+A while loop runs a block of code as long as a condition is True.
+
+```python
+# TODO: write a counter that stops at 5
+count = 0
+while count < 5:
+    print("Current count:", count)
+    # TODO: update count so the loop ends
+```
+
+Which built-in function prints the value of count inside the loop?
+
+---
+## 2026-10-28 14:08, in .
+
+**Me:** how to create a while loop
+
+**Tutor:**
+
+A while loop repeats code as long as a condition is True.
+
+```python
+count = 0
+while count < 3:   # condition
+    print("Loop", count)
+    count = count + 1   # update the variable
+```
+
+What is the name of the variable that controls how many times the loop runs?
