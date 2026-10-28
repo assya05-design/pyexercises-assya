@@ -229,3 +229,67 @@ Which one do you need for a list?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-28 12:57, in .
+
+**Me:** how can i order my list
+
+**Tutor:**
+
+Sorting a list in Python is done with the `sorted()` function or the `list.sort()` method.
+
+```python
+# sorted() returns a new sorted list
+numbers = [3, 1, 4, 1, 5]
+sorted_numbers = sorted(numbers)  # TODO: what does this return?
+
+# list.sort() sorts the list in place
+numbers.sort()  # TODO: what happens to the original list after this call?
+```
+
+Which one would you use if you want to keep the original list unchanged?
+
+---
+## 2026-10-28 12:58, in .
+
+**Me:** which defined variable can modify my list
+
+**Tutor:**
+
+Mutating a list in Python is done with **list methods** that change the list in place.
+
+```python
+# TODO: pick the right method for the job
+toys = ["doll", "car", "ball"]
+
+# 1. add one element at the end
+toys.  # TODO: which method adds one item?
+
+# 2. remove the first occurrence of "car"
+toys.  # TODO: which method removes a given value?
+
+# 3. insert "teddy" at index 1
+toys.  # TODO: which method inserts at a position?
+```
+
+Which list method inserts an element at a specific index?
+
+---
+## 2026-10-28 13:00, in .
+
+**Me:** how to create an ascending list
+
+**Tutor:**
+
+Creating an ascending list is done by sorting.
+
+```python
+# TODO: import the module that provides the sorting function
+
+numbers = [3, 1, 4, 1, 5, 9, 2]
+# TODO: call the sorting function on the list
+print(numbers)
+```
+
+Which function sorts a list in ascending order?
