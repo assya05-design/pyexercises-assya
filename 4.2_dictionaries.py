@@ -50,4 +50,5 @@ campaign.pop("channel")
 # Display every field and its value
 for field, value in campaign.items():
     print(field,":", value)
-    
+
+print(campaign.get("designer", "Designer not found"))
