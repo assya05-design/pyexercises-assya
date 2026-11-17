@@ -734,3 +734,39 @@ except ValueError:
 ```
 
 What does the int() function expect as its argument?
+
+---
+## 2026-11-17 16:32, in .
+
+**Me:** what is a regular expression
+
+**Tutor:**
+
+A regular expression (regex) is a sequence of characters that defines a search pattern, mainly for string matching and manipulation.
+
+Pattern to extract numbers from a string:
+
+```python
+import re
+
+def extract_numbers(text):
+    # TODO: import the right module
+    pattern = r'\d+'  # looks for one or more digits
+    # TODO: call the function that returns all non-overlapping matches
+    return matches
+
+# toy data
+sample = "Order 42 and 7 items"
+print(extract_numbers(sample))  # expected: ['42', '7']
+```
+
+What is the name of the function that returns all non-overlapping matches?
+
+---
+## 2026-11-17 16:33, in .
+
+**Me:** what is an acceptable information
+
+**Tutor:**
+
+Refused, off topic.
