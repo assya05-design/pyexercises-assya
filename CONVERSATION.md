@@ -703,3 +703,34 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-17 16:27, in .
+
+**Me:** When does it become an error
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 16:27, in .
+
+**Me:** what is a value error
+
+**Tutor:**
+
+A ValueError happens when a function receives an argument of the right type but an impossible value.
+
+For example, trying to convert the string "hello" to an integer raises a ValueError.
+
+```python
+# TODO: fix the ValueError below
+text = "hello"
+try:
+    number = int(text)
+except ValueError:
+    print("Cannot convert text to integer")
+```
+
+What does the int() function expect as its argument?
