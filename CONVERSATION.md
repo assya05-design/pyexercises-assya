@@ -676,3 +676,30 @@ What is the type of the variable `greeting` in this example?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-17 16:15, in .
+
+**Me:** what is a set of permissions
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 16:15, in .
+
+**Me:** what is bits
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 16:16, in .
+
+**Me:** what is a binary
+
+**Tutor:**
+
+Refused, off topic.
