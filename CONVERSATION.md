@@ -537,3 +537,80 @@ def safe_divide(numerator, denominator):
 ```
 
 What exception does the second call raise?
+
+---
+## 2026-11-17 15:35, in .
+
+**Me:** What is the difference between a list, a tuple and a dictionary in Python?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 15:36, in .
+
+**Me:** How do I create an empty list and add elements to it
+
+**Tutor:**
+
+Creating and growing a list is done with the list type and the append method.
+
+```python
+# Create an empty list
+my_list = []
+
+# Add one element at a time
+my_list.append("apple")   # TODO: replace with your first item
+my_list.append("banana")  # TODO: replace with your second item
+my_list.append(42)        # TODO: replace with your third item
+```
+
+What is the exact name of the method that adds an element to a list?
+
+---
+## 2026-11-17 15:36, in .
+
+**Me:** What is a tuple
+
+**Tutor:**
+
+A tuple is an ordered, unchangeable collection of items in Python.
+
+```python
+# Example of creating and using a tuple
+my_tuple = (10, 20, 30)  # TODO: Create a tuple with three numbers
+first_item = my_tuple[0]  # TODO: Access the first item in the tuple
+print(first_item)         # TODO: Print the first item
+```
+
+What is the main difference between a tuple and a list in Python?
+
+---
+## 2026-11-17 15:36, in .
+
+**Me:** How do I use csv.writer() to add a new row to a CSV file
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 15:37, in .
+
+**Me:** What is a variable
+
+**Tutor:**
+
+A variable is a name that refers to a value you want to store and reuse in your code.
+
+```python
+# Example: storing a cost and a price
+cost = 12.50      # TODO: change 12.50 to your product cost
+price = 25.00     # TODO: change 25.00 to your product price
+
+profit = price - cost
+print("Profit per unit:", profit)
+```
+
+What is the name of the variable that holds the profit calculation?
