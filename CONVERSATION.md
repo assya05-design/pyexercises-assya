@@ -614,3 +614,21 @@ print("Profit per unit:", profit)
 ```
 
 What is the name of the variable that holds the profit calculation?
+
+---
+## 2026-11-17 16:01, in .
+
+**Me:** How can I remove empty lines and unnecessary spaces from a text file
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 16:02, in .
+
+**Me:** Can you explain what strip(), split() and join() do
+
+**Tutor:**
+
+Refused, off topic.

@@ -37,15 +37,64 @@ DELIVERABLE
 """
 
 # What is wrong with names.txt (found by reading it, not by guessing):
-# -
-# -
-# -
-# -
+# 1. There are empty lines between some names.
+# 2. Some names have unnecessary spaces at the beginning.
+# 3. Some first names are written in lowercase.
+# 4. Some surnames are written in lowercase or uppercase.
 
-# 1. In:
-# 2. Process, problem by problem:
-# 3. Out:
-# 4. How I decide which word is the last name:
+# 1. In: A text file called names.txt containing people's first and last names. Each person is written on a separate line.
+# 2. Process, problem by problem: 
+# # Empty lines are removed.
+# Extra spaces are removed using strip().
+# Names are cleaned using split() and join().
+# All names are formatted with capital letters.
+# Names are sorted alphabetically by surname.
+# 3. Out: A new file called cleaned_names.txt.It contains the cleaned names sorted by surname. The original names.txt is not modified.
+# 4. How I decide which word is the last name: I consider the first word to be the first name. All the words after the first word are considered the surname. This also works for compound surnames such as Van Rossum.
 
 
 # Your code below
+# STEP 1: Read the original file
+with open("names.txt", "r", encoding="utf-8") as file:
+    lines = file.readlines()
+
+
+# STEP 2: Clean the names
+cleaned_names = []
+
+for line in lines:
+    name = line.strip()
+
+    # Skip empty lines
+    if name:
+        # Clean spaces and capitalize each word
+        name = " ".join(word.capitalize() for word in name.split())
+
+        # Add the cleaned name to the list
+        cleaned_names.append(name)
+
+
+# STEP 3: Sort names by surname
+cleaned_names.sort(
+    key=lambda name: " ".join(name.split()[1:]).casefold()
+)
+
+
+# STEP 4: Save the result in a NEW file
+with open("cleaned_names.txt", "w", encoding="utf-8") as file:
+    for name in cleaned_names:
+        file.write(name + "\n")
+
+
+# STEP 5: Display the results
+print("Original non-empty names:", len([line for line in lines if line.strip()]))
+print("Cleaned names:", len(cleaned_names))
+
+print("First name in sorted list:", cleaned_names[0])
+print("Last name in sorted list:", cleaned_names[-1])
+
+print("\nAll cleaned names:")
+for name in cleaned_names:
+    print(name)
+
+print("\nResults saved in cleaned_names.txt")
