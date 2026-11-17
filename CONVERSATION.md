@@ -632,3 +632,47 @@ Refused, off topic.
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-17 16:10, in .
+
+**Me:** How to create a table
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 16:11, in .
+
+**Me:** What is a table
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 16:11, in .
+
+**Me:** what is a string
+
+**Tutor:**
+
+A string is a sequence of characters enclosed in quotes.
+
+```python
+# Example of a string
+greeting = "Hello, world!"
+print(greeting)  # Output: Hello, world!
+```
+
+What is the type of the variable `greeting` in this example?
+
+---
+## 2026-11-17 16:11, in .
+
+**Me:** what is a capitalisation
+
+**Tutor:**
+
+Refused, off topic.
